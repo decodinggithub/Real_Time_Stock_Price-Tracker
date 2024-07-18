@@ -9,11 +9,12 @@ Download and extract Kafka, which includes Zookeeper :
 `````` 
 tar -xzf kafka_2.13-2.8.0.tgz  cd kafka_2.13-2.8.0
  ``````
-B. Start Zookeeper and Kafka Servers: # Start Zookeeper :
+B. Start Zookeeper and Kafka Servers : 
+* Start Zookeeper :
 ``````
 bin/zookeeper-server-start.sh config/zookeeper.properties
  ``````
-C. Start Kafka
+* Start Kafka :
 `````` 
 bin/kafka-server-start.sh config/server.properties
 ``````
